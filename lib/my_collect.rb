@@ -11,8 +11,3 @@ def my_collect(array)
     "Hey! No block was given!"
   end
 end
-
-languages = ["english", "french"]
-my_collect(languages) do |lang|
-  lang.upcase
-end
