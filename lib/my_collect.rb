@@ -6,9 +6,8 @@ def my_collect(array)
       collection << array[i]
       i += 1
     end
-    collection    
+    collection
   else
     "Hey! No block was given!"
   end
 end
-
