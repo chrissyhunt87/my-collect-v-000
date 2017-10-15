@@ -12,5 +12,8 @@ def my_collect(array)
   end
 end
 
+languages = ["english", "french"]
+mycollect(languages) do |lang|
+  lang.upcase
+end
 
-mycollect()
