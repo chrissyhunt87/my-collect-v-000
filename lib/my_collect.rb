@@ -16,4 +16,3 @@ languages = ["english", "french"]
 mycollect(languages) do |lang|
   lang.upcase
 end
-
